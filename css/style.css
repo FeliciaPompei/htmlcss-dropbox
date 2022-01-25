@@ -25,19 +25,20 @@ body{
 /* header */
 
 .wrapper{
-    line-height:10vh;
+    line-height:8vh;
     width:100%;
     min-width: 1150px;
     padding: 0 20px;
+}
 
+header .wrapper #logo img{
+    vertical-align: middle;
 }
 
 header .wrapper nav ul li{
     display: inline;
     list-style: none;
-    margin-left:40px;
-    
-    
+    margin-left:40px;  
 }
 
 a,
@@ -46,11 +47,6 @@ a:active{
     text-decoration: none;
     font-size:.8rem;
     color:black;
-}
-
-header .wrapper #logo img{
-    vertical-align: middle;
-    
 }
 
 .btn{
@@ -63,8 +59,9 @@ header .wrapper #logo img{
 
 .jambotron{
     background-color: #b4d0e7;
-    height:80vh;
+    max-height:80vh;
     width:100%;
+    min-width:1200px;
     margin: 0 auto;
 }
 
@@ -74,32 +71,33 @@ header .wrapper #logo img{
     padding-top: 60px;
 }
 
+.jambotron-title{
+    font-size:4rem;
+}
+
+.title-style{
+    font-weight:700;
+    margin-bottom: 30px;
+}
+
 .img-element{
     width:65%
-}
-
-.text-element{
-    width:35%;
-    padding-right:30px;
-}
-
-p{
-    font-size: 0.9rem;
-    line-height: 1.2rem;
-    margin:15px 0 30px;
 }
 
 .jambotron .img-element img{
     width:100%;
 }
 
-.jambotron-title{
-    font-size:4rem;
+
+.text-element{
+    width:35%;
+    padding-right:30px;
 }
 
 .font-style{
-    font-weight:700;
-    margin-bottom: 30px;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    margin:15px 0 30px;
 }
 
 .font-small{
@@ -108,4 +106,29 @@ p{
 
 .text-element .fas{
     font-size:2rem;
+}
+
+/* main  */
+
+/* section price list */
+
+.price-list{
+    margin:50px auto;
+    width:60%;
+    background-color:sandybrown;
+    padding-top: 100px;
+}
+
+.price-list .price-container h3{
+    font-size:2.2rem;
+}
+
+.price-box{
+    width:calc(100%/3);
+    height:50px;
+    border: 2px solid black;
+}
+
+.middle-box{
+    margin: 0 40px;
 }
