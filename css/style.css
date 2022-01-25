@@ -115,7 +115,7 @@ a:active{
 .price-list{
     margin:50px auto;
     width:60%;
-    background-color:sandybrown;
+    
     padding-top: 100px;
 }
 
@@ -124,11 +124,18 @@ a:active{
 }
 
 .price-box{
-    width:calc(100%/3);
-    height:50px;
+    width:calc((100% / 3) - 40px);
     border: 2px solid black;
+
 }
 
 .middle-box{
-    margin: 0 40px;
+    margin: 0 60px;
 }
+
+.box-title{
+    border-bottom: 2px solid black;
+    text-align:center;
+    padding:10px;
+}
+
