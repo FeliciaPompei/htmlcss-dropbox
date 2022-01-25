@@ -4,6 +4,71 @@
     margin:0;
 }
 
+.clearfix::after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+.float-left{
+    float:left;
+}
+
+.float-right{
+    float:right;
+}
+
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+/* header */
+
+header{
+    background-color: greenyellow;
+}
+
+.wrapper{
+    line-height:10vh;
+    width:100%;
+    min-width: 1150px;
+    padding: 0 20px;
+
+}
+
+header .wrapper nav ul li{
+    display: inline;
+    list-style: none;
+    margin-left:40px;
+    
+    
+}
+
+a,
+a:focus,
+a:active{
+    text-decoration: none;
+    font-size:.8rem;
+    color:black;
+}
+
+header .wrapper #logo img{
+    vertical-align: middle;
+    
+}
+
+.btn{
+    background-color:lightblue;
+    padding: .5rem 1.2rem;
+    color:white;
+}
+
+/* jambotron */
+
+.jambotron{
+    background-color: blueviolet;
+    height:70vh;
+    width:100%;
+}
+
+
