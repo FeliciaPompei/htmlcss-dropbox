@@ -63,19 +63,49 @@ header .wrapper #logo img{
 
 .jambotron{
     background-color: #b4d0e7;
-    height:70vh;
+    height:80vh;
     width:100%;
+    margin: 0 auto;
+}
+
+.jambotron-container{
+    width:75%;
+    margin: 0 auto;
+    padding-top: 60px;
 }
 
 .img-element{
-    background-color:green;
-    height:40px;
-    width:60%
+    width:65%
 }
 
 .text-element{
-    background-color:blue;
-    height:40px;
-    width:40%;
+    width:35%;
+    padding-right:30px;
 }
 
+p{
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    margin:15px 0 30px;
+}
+
+.jambotron .img-element img{
+    width:100%;
+}
+
+.jambotron-title{
+    font-size:4rem;
+}
+
+.font-style{
+    font-weight:700;
+    margin-bottom: 30px;
+}
+
+.font-small{
+    font-size: 0.7rem;
+}
+
+.text-element .fas{
+    font-size:2rem;
+}
