@@ -171,7 +171,7 @@ section .container-main .price-list .middle-card{
     margin: 0 60px 60px;
 }
 
-section .container-main .price-list .card-footer{
+section .container-main .price-list .footer{
     width:100%;
     height:150px;
 
@@ -201,14 +201,6 @@ section .container-main .price-list .card ul li{
 section .container-main .price-list .card ul li .fa-check{
     color:#0061ff;
 }
-
-
-/* thinking about */
-/* .box-title{
-    border-bottom: 2px solid black;
-    text-align:center;
-    padding:10px;
-} */
 
 
 /* section partnership */
