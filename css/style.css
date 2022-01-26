@@ -46,7 +46,6 @@
     margin:15px 0 30px;
 }
 
-
 .title-style{
     font-weight:700;
     margin-bottom: 30px;
@@ -58,12 +57,20 @@
 
 /* float container size */
 .img-element{
-    width:65%
+    width:65%;
+
+    /* to take out */
+    background-color:seagreen;
+    height: 200px;
 }
 
 .text-element{
     width:35%;
     padding-right:30px;
+
+    /* to take out */
+    background-color:firebrick;
+    height: 200px;
 }
 
 /* button styles */
@@ -74,6 +81,12 @@
 }
 
 /* card sizes */
+
+.card{
+    border: 2px solid black;
+    background-color:blue;
+    height:500px;
+}
 
 
 /* body */
@@ -147,14 +160,12 @@ section .container-main input:nth-child(3){
 
 /* card containers */
 
-.card{
+section .container-main .price-list .card{
     width:calc((100% / 3) - 40px);
-    border: 2px solid black;
-    background-color:blue;
-    height:500px;
-}
+} 
 
-.middle-box{
+
+.middle-card{
     margin: 0 60px 60px;
 }
 
@@ -172,3 +183,8 @@ section .container-main input:nth-child(3){
     padding:10px;
 } */
 
+
+/* section content */
+section .container-main .content .card{
+    width:calc(100% / 3);
+}
