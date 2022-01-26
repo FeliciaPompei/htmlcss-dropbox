@@ -174,12 +174,16 @@ section .container-main .price-list .card-footer{
     /* to take out */
     border: 1px solid black;
 }
-
-section .container-main .price-list .card h4{
+section .container-main .price-list .card .border-bottom{
     border-bottom:1px solid black;
+    margin-bottom:20px;
+}
+section .container-main .price-list .card h4 .far{
+    padding:5px;
+}
+section .container-main .price-list .card h4{
     text-align:center;
-    padding:10px 0;
-    margin-bottom: 30px;
+    padding:5px 10px;
 }
 
 section .container-main .price-list .card ul{
