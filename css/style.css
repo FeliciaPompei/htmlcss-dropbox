@@ -96,7 +96,8 @@ header .wrapper nav ul li{
     margin-left:40px;  
 }
 
-header a{
+header a,
+section .container-main .content .card p a{
     color:black;
 }
 
@@ -142,15 +143,17 @@ section .container-main input:nth-child(3){
     margin-left:20px;
 }
 
-/* card containers */
+/* section price list - card containers */
 
 section .container-main .price-list .card{
     width:calc((100% / 3) - 40px);
-    border: 2px solid black;
-    padding-bottom:20px;
+    border: 1px solid black;
+    
     height: 650px;
+    line-height:2rem;
+    padding:0 10px 20px;
+    font-size: .7rem;
 } 
-
 
 section .container-main .price-list .middle-card{
     margin: 0 60px 60px;
@@ -161,7 +164,22 @@ section .container-main .price-list .card-footer{
     height:150px;
 
     /* to take out */
-    border: 2px solid black;
+    border: 1px solid black;
+}
+
+section .container-main .price-list .card h4{
+    border-bottom:1px solid black;
+    text-align:center;
+}
+section .container-main .price-list .card ul{
+    margin-bottom:20px;
+}
+section .container-main .price-list .card ul li{
+    list-style: none;
+}
+
+section .container-main .price-list .card ul li .fa-check{
+    color:#0061ff;
 }
 
 
