@@ -39,7 +39,6 @@
 
 /* font styles */
 
-
 .font-style{
     font-size: 0.9rem;
     line-height: 1.2rem;
@@ -198,4 +197,10 @@ section .container-main .partnership-container .text-element .btn{
 /* section content */
 section .container-main .content .card{
     width:calc(100% / 3);
+    padding:10px;
 }
+
+section .container-main .content .card .image-content img{
+    width:100%;
+}
+
