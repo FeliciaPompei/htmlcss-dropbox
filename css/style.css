@@ -133,7 +133,8 @@ header .wrapper .nav-bar ul li a,
 /* main  */
 /* section price list */
 
-section .container-main h3{
+section .container-main h3,
+section .container-main .clients h1{
     font-size:2.2rem;
 }
 
@@ -174,14 +175,28 @@ section .container-main .price-list .card-footer{
 
 /* section partnership */
 
+section .container-main .partnership-container .img-element{
+    padding-right:40px;
+}
+
+
 section .container-main .partnership-container .img-element img{
     width:100%;
 }
 
 section .container-main .partnership-container .text-element{
     padding-top:50px;
-    padding-left:30px;
+    
 }
+
+section .container-main .partnership-container .text-element h4{
+    font-size:1.5rem;
+}
+section .container-main .partnership-container .text-element p,
+section .container-main .partnership-container .text-element .btn{
+    font-size:.8rem;
+}
+
 
 section .container-main .partnership-container .text-element .btn{
     background-color:white;
@@ -204,5 +219,11 @@ section .container-main .content .card .image-content img{
 
 section .container-main .content .card h4{
     font-size:1.5rem;
+}
+
+/* Clienti fine del main */
+
+section .container-main .clients{
+    width:55%;
 }
 
