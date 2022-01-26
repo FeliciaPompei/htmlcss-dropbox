@@ -110,14 +110,13 @@ a:active{
 
 /* main  */
 
-/* section price list */
-
-.price-list{
+main{
     margin:50px auto;
     width:60%;
-    
     padding-top: 100px;
 }
+
+/* section price list */
 
 .price-list .price-container h3{
     font-size:2.2rem;
@@ -137,5 +136,10 @@ a:active{
     border-bottom: 2px solid black;
     text-align:center;
     padding:10px;
+}
+
+.price-list ul li{
+    list-style: none;
+    
 }
 
