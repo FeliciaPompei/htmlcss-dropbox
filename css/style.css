@@ -34,6 +34,7 @@
     margin:50px auto;
     width:60%;
     padding-top: 100px;
+    min-width:900px;
 
 }
 
@@ -139,18 +140,25 @@ section .container-main .clients h1{
     font-size:2.2rem;
 }
 
-section .container-main input:nth-child(3){
-    margin-left:20px;
+section .container-main .input-style{
+    font-size:12px;
+    margin-bottom:30px;
 }
+
+section .container-main .input-style:nth-child(2){
+    margin-right:20px;
+
+}
+
+
 
 /* section price list - card containers */
 
 section .container-main .price-list .card{
-    width:calc((100% / 3) - 40px);
+    width:calc((100% / 3) - 43px);
     border: 1px solid black;
-    
     height: 650px;
-    line-height:2rem;
+    line-height:1.6rem;
     padding:0 10px 20px;
     font-size: .7rem;
 } 
@@ -170,9 +178,13 @@ section .container-main .price-list .card-footer{
 section .container-main .price-list .card h4{
     border-bottom:1px solid black;
     text-align:center;
+    padding:10px 0;
+    margin-bottom: 30px;
 }
+
 section .container-main .price-list .card ul{
     margin-bottom:20px;
+    
 }
 section .container-main .price-list .card ul li{
     list-style: none;
