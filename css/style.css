@@ -73,7 +73,7 @@
 /* card sizes */
 
 .card{
-    border: 2px solid black;
+    
     height:500px;
 }
 
@@ -153,6 +153,7 @@ section .container-main input:nth-child(3){
 
 section .container-main .price-list .card{
     width:calc((100% / 3) - 40px);
+    border: 2px solid black;
 } 
 
 
@@ -197,10 +198,14 @@ section .container-main .partnership-container .text-element .btn{
 /* section content */
 section .container-main .content .card{
     width:calc(100% / 3);
-    padding:10px;
+    padding:20px;
 }
 
 section .container-main .content .card .image-content img{
     width:100%;
+}
+
+section .container-main .content .card h4{
+    font-size:1.5rem;
 }
 
