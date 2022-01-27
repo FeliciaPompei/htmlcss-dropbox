@@ -278,11 +278,11 @@ section .container-main .price-list .card ul li,
 footer .container .card nav ul li{
     list-style: none;
 }
-section .container-main .price-list .card .border-top{
+.border-top{
     position:relative;
     padding-top:20px;
 }
-section .container-main .price-list .card .border-top:after{
+.border-top:after{
     content : "";
     position: absolute;
     left    : 0;
@@ -290,7 +290,6 @@ section .container-main .price-list .card .border-top:after{
     height  : 1px;
     width   : 25%;
     border-top:1px solid rgb(202, 200, 200);
-
 }
 
 section .container-main .price-list .card ul li .fa-check{
@@ -309,9 +308,6 @@ section .container-main .price-list .footer p:nth-child(3){
 section .container-main .price-list .footer .button{
     padding: 10px 20px;
 }
-
-
-
 
 
 /* section partnership */
@@ -468,15 +464,29 @@ section .container-svg-designit .content p:first-of-type{
 /* footer*/
 
 footer{
-    background-color:rgb(32, 32, 59);
+    background-color:#000000;
     height:50vh;
 }
 
 footer .container .card{
     width:calc(100% / 5);
     color:white;
+    height:30vh;
 }
-
+footer .container .card nav ul li:first-of-type{
+    margin-bottom: 15px;
+}
 footer .container .card nav ul li a{
     color:white;
 }
+
+select, option{
+    border:none;
+    background-color:black;
+    color:white;
+}
+
+footer .container .language{
+    height:auto;
+}
+
