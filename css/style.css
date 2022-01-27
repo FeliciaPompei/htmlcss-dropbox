@@ -48,6 +48,21 @@
     height:100%;
 }
 
+/* float container size */
+.img-element{
+    width:65%;
+}
+
+.text-element{
+    width:35%;
+}
+
+/* positions */
+
+.absolute{
+    position:absolute;
+}
+
 /* image positioning */
 
 .img-position{
@@ -74,26 +89,44 @@
     font-size: 0.7rem;
 }
 
-/* float container size */
-.img-element{
-    width:65%;
-}
-
-.text-element{
-    width:35%;
-}
-
 /* button styles */
 .btn{
     background-color:#0061ff;
     padding: .5rem 1.2rem;
     color:white;
 }
-/* positions */
 
-.absolute{
-    position:absolute;
+/* background color - colors */
+
+.bg-green{
+    background-color:#a2d39b;
+    border: 10px solid #d0e9cd;
 }
+
+.bg-bordeaux{
+    background-color: #61082b;
+}
+
+.bg-skyblue{
+    background-color:#0093ce;
+}
+
+.bg-red{
+    background-color: #ff1c1c;
+}
+
+.bg-darkblue{
+    background-color:#0d2481;
+}
+
+.bg-yellow{
+    background-color: yellow;
+}
+
+.bg-lightblue{
+    background-color:#b4d0e7;
+}
+
 
 /* body */
 
@@ -300,10 +333,6 @@ section .container-svg-designit .svg-image .top-left{
     left:0;
 }
 
-section .container-svg-designit .svg-image .bg-color-green{
-    background-color:#a2d39b;
-    border: 10px solid #d0e9cd;
-}
 
 section .container-svg-designit .svg-image .top-right{
     top:0;
@@ -325,9 +354,6 @@ section .container-svg-designit .svg-image .bottom-right{
 
 /* section  prova gratuita*/
 
-.bg-blue{
-    background-color:#b4d0e7;
-}
 
 
 /* section Q & A */
