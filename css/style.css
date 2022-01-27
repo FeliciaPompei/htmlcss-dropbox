@@ -165,7 +165,9 @@ section .container-main .content .card p a{
 
 header .wrapper .nav-bar ul li a,
 .jumbotron .container .text-element a,
-footer .container .card nav ul li a{
+footer .container .card nav ul li a,
+section .container-main .price-list .footer a,
+section .container-main .price-list .card .btn{
     text-decoration: none;
     font-size:.8rem;
 }
@@ -218,11 +220,12 @@ section .container-main .input-style:nth-child(2){
 
 section .container-main .price-list .card{
     width:calc((100% / 3) - 43px);
-    border: 1px solid black;
-    height: 650px;
+    border: 1px solid rgb(219, 219, 219);
+    height: 700px;
+
     line-height:1.6rem;
-    
     font-size: .7rem;
+    margin: 0 auto;
 } 
 
 section .container-main .price-list .card .padding{
@@ -235,14 +238,15 @@ section .container-main .price-list .middle-card{
 
 section .container-main .price-list .footer{
     width:100%;
-    height:150px;
-    border: 1px solid black;
+    height:auto;
+    border: 1px solid rgb(219, 219, 219);
 }
 section .container-main .price-list .card .border-bottom{
-    border-bottom:1px solid black;
+    border-bottom:1px solid rgb(219, 219, 219);
     margin-bottom:20px;
 }
-section .container-main .price-list .card h4 .far{
+section .container-main .price-list .far,
+section .container-main .price-list .fas{
     padding:5px;
 }
 section .container-main .price-list .card h4{
@@ -250,10 +254,27 @@ section .container-main .price-list .card h4{
     padding:5px 10px;
 }
 
+section .container-main .price-list .card div{
+    line-height: 1.8rem;
+}
+
+section .container-main .price-list .card div h2,
+section .container-main .price-list .card div p:first-of-type{
+    font-weight:800;
+}
+
+section .container-main .price-list .card p:nth-child(3){
+    color:gray;
+    margin-bottom:20px;
+}
+section .container-main .price-list .card h5{
+    font-size: 1rem;
+    margin-bottom:10px;
+}
 section .container-main .price-list .card ul{
     margin-bottom:20px;
-    
 }
+
 section .container-main .price-list .card ul li,
 footer .container .card nav ul li{
     list-style: none;
@@ -262,6 +283,22 @@ footer .container .card nav ul li{
 section .container-main .price-list .card ul li .fa-check{
     color:#0061ff;
 }
+
+section .container-main .price-list .footer h2{
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+}
+
+section .container-main .price-list .footer p:nth-child(3){
+    margin:0;
+}
+
+section .container-main .price-list .footer .button{
+    padding: 10px 20px;
+}
+
+
+
 
 
 /* section partnership */
