@@ -1,0 +1,504 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+/* classi in comune */
+
+/* float proprieties */
+
+.clearfix::after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+.float-left{
+    float:left;
+}
+
+.float-right{
+    float:right;
+}
+
+/* containers */
+
+.container{
+    width:75%;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.container-main{
+    margin:50px auto;
+    width:60%;
+    padding-top: 100px;
+    min-width:900px;
+}
+
+.container-size{
+    width:50%;
+    height:50%;
+}
+
+.img-wrapper{
+    position:relative;
+    width:100%;
+    height:100%;
+}
+
+/* float container size */
+.img-element{
+    width:65%;
+}
+
+.text-element{
+    width:35%;
+}
+
+/* positions */
+
+.absolute{
+    position:absolute;
+}
+
+/* image positioning */
+
+.img-position{
+    width:50%;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+
+/* font styles */
+
+.font-style{
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    margin:15px 0 30px;
+}
+
+.title-style{
+    font-weight:700;
+    margin-bottom: 30px;
+}
+
+.font-small{
+    font-size: 0.7rem;
+}
+
+/* button styles */
+.btn{
+    background-color:#0061ff;
+    padding: .5rem 1.2rem;
+    color:white;
+}
+
+/* background color - colors */
+
+.bg-green{
+    background-color:#a2d39b;
+    border: 10px solid #d0e9cd;
+}
+
+.bg-bordeaux{
+    background-color: #61082b;
+}
+
+.bg-skyblue{
+    background-color:#0093ce;
+}
+
+.bg-red{
+    background-color: #ff1c1c;
+}
+
+.bg-darkblue{
+    background-color:#0d2481;
+}
+
+.bg-yellow{
+    background-color: yellow;
+}
+
+.bg-lightblue{
+    background-color:#b4d0e7;
+}
+
+.filter-white{
+    filter: invert(1);
+}
+
+
+/* body */
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* header */
+
+header{
+    height:8vh;
+}
+.wrapper{
+    line-height:8vh;
+    width:100%;
+    min-width: 1150px;
+    padding: 0 20px;
+    position:fixed;
+    background-color:white;
+    z-index:2;
+}
+
+
+
+header .wrapper #logo img{
+    vertical-align: middle;
+}
+
+header .wrapper nav ul li{
+    display: inline;
+    list-style: none;
+    margin-left:40px;  
+}
+
+header a,
+section .container-main .content .card p a{
+    color:black;
+}
+
+header .wrapper .nav-bar ul li a,
+.jumbotron .container .text-element a,
+footer .container .card nav ul li a,
+section .container-main .price-list .card .btn{
+    text-decoration: none;
+    font-size:.8rem;
+}
+
+
+/* jumbotron */
+
+.jumbotron{
+    background-color: #b4d0e7;
+    max-height:80vh;
+    width:100%;
+    min-width:1200px;
+}
+
+.jumbotron .container .jumbotron-title{
+    font-size:4rem;
+}
+
+.jumbotron .container .img-element img{
+    width:100%;
+}
+.jumbotron .container .text-element{
+    padding-right:30px;
+}
+.jumbotron .container .text-element .fas{
+    font-size:2rem;
+}
+
+/* main  */
+/* section price list */
+
+section .container-main h3,
+section .container-main .clients h1{
+    font-size:2.2rem;
+}
+
+section .container-main .input-style{
+    font-size:12px;
+    margin-bottom:30px;
+}
+
+section .container-main .input-style:nth-child(2){
+    margin-right:20px;
+
+}
+
+
+
+/* section price list - card containers */
+
+section .container-main .price-list .card{
+    width:calc((100% / 3) - 43px);
+    border: 1px solid rgb(219, 219, 219);
+    height: 700px;
+
+    line-height:1.6rem;
+    font-size: .7rem;
+    margin: 0 auto;
+} 
+
+section .container-main .price-list .card .padding{
+    padding:0 10px 20px;
+}
+
+section .container-main .price-list .middle-card{
+    margin: 0 60px 60px;
+}
+
+section .container-main .price-list .footer{
+    width:100%;
+    height:auto;
+    border: 1px solid rgb(219, 219, 219);
+}
+section .container-main .price-list .card .border-bottom{
+    border-bottom:1px solid rgb(219, 219, 219);
+    margin-bottom:20px;
+}
+section .container-main .price-list .far,
+section .container-main .price-list .fas{
+    padding:5px;
+}
+section .container-main .price-list .card h4{
+    text-align:center;
+    padding:5px 10px;
+}
+
+section .container-main .price-list .card div{
+    line-height: 1.8rem;
+}
+
+section .container-main .price-list .card div h2,
+section .container-main .price-list .card div p:first-of-type{
+    font-weight:800;
+}
+
+section .container-main .price-list .card p:nth-child(3){
+    color:gray;
+    margin-bottom:20px;
+}
+section .container-main .price-list .card h5{
+    font-size: 1rem;
+    margin-bottom:10px;
+}
+section .container-main .price-list .card ul{
+    margin-bottom:20px;
+}
+
+section .container-main .price-list .card ul li,
+footer .container .card nav ul li{
+    list-style: none;
+}
+.border-top{
+    position:relative;
+    padding-top:20px;
+}
+.border-top:after{
+    content : "";
+    position: absolute;
+    left    : 0;
+    top : 0;
+    height  : 1px;
+    width   : 25%;
+    border-top:1px solid rgb(202, 200, 200);
+}
+
+section .container-main .price-list .card ul li .fa-check{
+    color:#0061ff;
+}
+
+section .container-main .price-list .footer h2{
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+}
+
+section .container-main .price-list .footer p:nth-child(3){
+    margin:0;
+}
+
+section .container-main .price-list .footer .button{
+    padding: 10px 20px;
+}
+
+
+/* section partnership */
+
+section .container-main .partnership-container .img-element{
+    padding-right:40px;
+}
+
+
+section .container-main .partnership-container .img-element img{
+    width:100%;
+}
+
+section .container-main .partnership-container .text-element{
+    padding-top:50px;
+    
+}
+
+section .container-main .partnership-container .text-element h4{
+    font-size:1.5rem;
+}
+section .container-main .partnership-container .text-element p,
+section .container-main .partnership-container .text-element .btn{
+    font-size:.8rem;
+}
+
+
+section .container-main .partnership-container .text-element .btn,
+.section-prova-gratuita .container-main .btn-element .btn{
+    background-color:white;
+    border: black 1px solid;
+    color:black;
+    text-decoration: none;
+}
+
+
+
+/* section content */
+section .container-main .content .card{
+    width:calc(100% / 3);
+    padding:20px;
+}
+
+section .container-main .content .card .image-content img{
+    width:100%;
+}
+
+section .container-main .content .card h4{
+    font-size:1.5rem;
+}
+
+/* Section clienti */
+
+section .container-main .clients{
+    width:55%;
+}
+
+/* section svg designit */
+
+.container-svg-designit{
+    min-height:1500px;
+    min-height:460.8px;
+}
+
+section .container-svg-designit .svg-image{
+    width:30vw;
+    height:460.8px;
+    position:relative;
+}
+
+
+section .container-svg-designit .svg-image .top-left{
+    top:0;
+    left:0;
+}
+
+
+section .container-svg-designit .svg-image .top-right{
+    top:0;
+    right:0;
+    
+}
+
+section .container-svg-designit .svg-image .bottom-left{
+    bottom:0;
+    left:0;
+}
+
+section .container-svg-designit .svg-image .bottom-right{
+    bottom:0;
+    right:0;
+}
+
+section .container-svg-designit .content{
+    width:calc(100% - 60vw);
+    height:460.8px; 
+    overflow:auto;
+    padding:40px;
+    font-size:0.9rem;
+    line-height:1.1rem;
+    
+}
+
+section .container-svg-designit .content img{
+    margin-bottom: 90px;
+    width:25%;
+}
+
+section .container-svg-designit .content p:first-of-type{
+    margin-bottom:40px;
+}
+
+/* section  prova gratuita*/
+
+.section-prova-gratuita .container-main{
+    margin: 0 auto;
+    padding-bottom:50px;
+}
+.section-prova-gratuita .container-main .text-element{
+    width:45%;
+}
+
+.section-prova-gratuita .container-main h1{
+    font-size:2rem;
+    color:#61082B;
+}
+
+.section-prova-gratuita .container-main .btn-element{
+    padding-top:20px;
+}
+
+.section-prova-gratuita .container-main .btn-element .btn{
+    border:none;
+    padding:5px 2rem;
+    font-size:0.9rem;
+}
+
+
+/* section Q & A */
+.q-and-a .container-main{
+    padding-top:40px;
+}
+
+.q-and-a .container-main .question-card{
+
+    /* to be changed */
+    width:100%;
+    height: 50px;
+    margin-bottom:20px;
+    border-bottom: 1px solid rgb(223, 223, 223)
+}
+
+
+/* footer*/
+
+footer{
+    background-color:#000000;
+    height:50vh;
+}
+
+footer .container .card{
+    width:calc(100% / 5);
+    color:white;
+    height:30vh;
+}
+footer .container .card nav ul li:first-of-type{
+    margin-bottom: 15px;
+}
+footer .container .card nav ul li a{
+    color:white;
+}
+
+select, option{
+    border:none;
+    background-color:black;
+    color:white;
+}
+
+footer .container .language{
+    height:auto;
+}
+
+footer .container .card nav ul li a:hover{
+    text-decoration: underline;
+    color:white;
+}
