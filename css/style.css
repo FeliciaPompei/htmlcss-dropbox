@@ -103,7 +103,8 @@ section .container-main .content .card p a{
 }
 
 header .wrapper .nav-bar ul li a,
-.jumbotron .container .text-element a{
+.jumbotron .container .text-element a,
+footer .container .card nav ul li a{
     text-decoration: none;
     font-size:.8rem;
 }
@@ -194,7 +195,8 @@ section .container-main .price-list .card ul{
     margin-bottom:20px;
     
 }
-section .container-main .price-list .card ul li{
+section .container-main .price-list .card ul li,
+footer .container .card nav ul li{
     list-style: none;
 }
 
@@ -255,5 +257,22 @@ section .container-main .content .card h4{
 
 section .container-main .clients{
     width:55%;
+}
+
+
+/* footer*/
+
+footer{
+    background-color:rgb(32, 32, 59);
+    height:50vh;
+}
+
+footer .container .card{
+    width:calc(100% / 5);
+    color:white;
+}
+
+footer .container .card nav ul li a{
+    color:white;
 }
 
