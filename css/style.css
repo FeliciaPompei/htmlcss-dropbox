@@ -320,6 +320,10 @@ section .container-main .clients{
 
 /* section svg designit */
 
+.container-svg-designit{
+    min-height:1500px;
+    min-height:460.8px;
+}
 
 section .container-svg-designit .svg-image{
     width:30vw;
@@ -330,6 +334,7 @@ section .container-svg-designit .svg-image{
 section .container-svg-designit .content{
     width:calc(100% - 60vw);
     height:460.8px; 
+    overflow:auto;
 }
 
 section .container-svg-designit .svg-image .top-left{
