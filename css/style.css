@@ -35,7 +35,17 @@
     width:60%;
     padding-top: 100px;
     min-width:900px;
+}
 
+.container-size{
+    width:50%;
+    height:50%;
+}
+
+.img-wrapper{
+    position:relative;
+    width:100%;
+    height:100%;
 }
 
 /* font styles */
@@ -70,7 +80,11 @@
     padding: .5rem 1.2rem;
     color:white;
 }
+/* positions */
 
+.absolute{
+    position:absolute;
+}
 /* body */
 
 body{
@@ -259,22 +273,52 @@ section .container-main .clients{
 
 /* section svg designit */
 
-section .container-svg-designit{
-    width:100%;
-    background-color:rebeccapurple;
-}
 
 section .container-svg-designit .svg-image{
     width:30vw;
-    height:30vh;
-    background-color:forestgreen;
+    height:460.8px;
+    position:relative;
 }
 
 section .container-svg-designit .content{
     width:calc(100% - 60vw);
     background-color:springgreen;
-    height:30vh;
+    height:460.8px; 
+    
 }
+
+
+section .container-svg-designit .svg-image .top-left{
+    top:0;
+    left:0;
+    background-color:skyblue;
+}
+
+section .container-svg-designit .svg-image .top-right{
+    top:0;
+    right:0;
+    background-color:peachpuff;
+}
+
+.img-position{
+    width:50%;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+
+section .container-svg-designit .svg-image .bottom-left{
+    bottom:0;
+    left:0;
+    background-color:burlywood;
+}
+section .container-svg-designit .svg-image .bottom-right{
+    bottom:0;
+    right:0;
+    background-color:green;
+}
+
+
 
 /* section  prova gratuita*/
 
