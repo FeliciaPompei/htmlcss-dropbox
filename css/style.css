@@ -175,8 +175,6 @@ section .container-main .price-list .middle-card{
 section .container-main .price-list .footer{
     width:100%;
     height:150px;
-
-    /* to take out */
     border: 1px solid black;
 }
 section .container-main .price-list .card .border-bottom{
@@ -253,10 +251,47 @@ section .container-main .content .card h4{
     font-size:1.5rem;
 }
 
-/* Clienti fine del main */
+/* Section clienti */
 
 section .container-main .clients{
     width:55%;
+}
+
+/* section svg designit */
+
+section .container-svg-designit{
+    width:100%;
+    background-color:rebeccapurple;
+}
+
+section .container-svg-designit .svg-image{
+    width:30vw;
+    height:30vh;
+    background-color:forestgreen;
+}
+
+section .container-svg-designit .content{
+    width:calc(100% - 60vw);
+    background-color:springgreen;
+    height:30vh;
+}
+
+/* section  prova gratuita*/
+
+.bg-blue{
+    background-color:#b4d0e7;
+}
+
+
+/* section Q & A */
+
+.question-card{
+
+    /* to be changed */
+    width:100%;
+    height: 50px;
+    background-color:palevioletred;
+    margin-bottom:20px;
 }
 
 
@@ -275,4 +310,3 @@ footer .container .card{
 footer .container .card nav ul li a{
     color:white;
 }
-
