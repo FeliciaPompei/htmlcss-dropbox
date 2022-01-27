@@ -471,20 +471,18 @@ section .container-svg-designit .content p:first-of-type{
 
 /* section Q & A */
 .q-and-a .container-main{
-    padding-top:40px;
+    padding:40px 0;
 }
 
 .q-and-a .container-main .question-card{
     width:100%;
-    margin-bottom:20px;
+    padding:25px 0;
     border-bottom: 1px solid rgb(223, 223, 223)
 }
 
-/* .q-and-a .container-main .question-card .question{
-    height:100%;
+.q-and-a .container-main .question-card .text-element{
     width:80%;
 }
-
 
 .q-and-a .container-main .question-card p{
     display:none;
@@ -493,7 +491,7 @@ section .container-svg-designit .content p:first-of-type{
 .q-and-a .container-main .question-card:hover p{
     display:block;
     height:auto;
-} */
+}
 
 
 /* footer*/
