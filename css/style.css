@@ -128,7 +128,7 @@
 }
 
 .filter-white{
-    filter: invert(98%) sepia(6%) saturate(4%) hue-rotate(107deg) brightness(105%) contrast(100%);
+    filter: invert(1);
 }
 
 
@@ -289,7 +289,8 @@ section .container-main .partnership-container .text-element .btn{
 }
 
 
-section .container-main .partnership-container .text-element .btn{
+section .container-main .partnership-container .text-element .btn,
+.section-prova-gratuita .container-main .btn-element .btn{
     background-color:white;
     border: black 1px solid;
     color:black;
@@ -363,6 +364,28 @@ section .container-svg-designit .svg-image .bottom-right{
 
 /* section  prova gratuita*/
 
+.section-prova-gratuita .container-main{
+    margin: 0 auto;
+    padding-bottom:50px;
+}
+.section-prova-gratuita .container-main .text-element{
+    width:45%;
+}
+
+.section-prova-gratuita .container-main h1{
+    font-size:2rem;
+    color:#61082B;
+}
+
+.section-prova-gratuita .container-main .btn-element{
+    padding-top:20px;
+}
+
+.section-prova-gratuita .container-main .btn-element .btn{
+    border:none;
+    padding:5px 2rem;
+    font-size:0.9rem;
+}
 
 
 /* section Q & A */
