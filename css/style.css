@@ -166,7 +166,6 @@ section .container-main .content .card p a{
 header .wrapper .nav-bar ul li a,
 .jumbotron .container .text-element a,
 footer .container .card nav ul li a,
-section .container-main .price-list .footer a,
 section .container-main .price-list .card .btn{
     text-decoration: none;
     font-size:.8rem;
@@ -278,6 +277,20 @@ section .container-main .price-list .card ul{
 section .container-main .price-list .card ul li,
 footer .container .card nav ul li{
     list-style: none;
+}
+section .container-main .price-list .card .border-top{
+    position:relative;
+    padding-top:20px;
+}
+section .container-main .price-list .card .border-top:after{
+    content : "";
+    position: absolute;
+    left    : 0;
+    top : 0;
+    height  : 1px;
+    width   : 25%;
+    border-top:1px solid rgb(202, 200, 200);
+
 }
 
 section .container-main .price-list .card ul li .fa-check{
