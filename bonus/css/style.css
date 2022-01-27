@@ -159,14 +159,14 @@ header .wrapper #logo img{
 }
 
 header .wrapper nav ul li{
-    display: inline;
+    display: inline-block;
     list-style: none;
     margin-left:40px;  
 }
 
-/* header .wrapper nav li:hover ul{
-    border-bottom: 2px solid green;
-} */
+header .wrapper nav ul li:hover{
+    border-bottom: 5px solid #0093ce;
+}
 
 header a,
 section .container-main .content .card p a{
