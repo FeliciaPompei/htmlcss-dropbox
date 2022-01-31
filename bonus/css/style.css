@@ -181,51 +181,27 @@ section .container-main .price-list .card .btn{
     font-size:.8rem;
 }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
+.relative{
+    position:relative;
 }
 
-header .wrapper .nav-bar .dropdown-content{
+
+.dropdown-content{
     display:none;
     position:absolute;
-    width:125px;
+    width:150px;
     z-index:1;
+    top:8vh;
+    left:0;
 
     background-color: #f9f9f9;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-
-
-
-/* header .wrapper .option-bar{
-    position:relative;
+.relative:hover .dropdown-content {
     display:inline-block;
 }
-
-
-header .wrapper .nav-bar .dropdown-content ul li{
-    display:block;
-    background-color: #f1f1f1;
-    margin:0;
-}
-
-.option-bar:hover ul li{
-    display:block;
-    z-index:2;
-} */
-
-
-
-
-
-
 
 
 /* jumbotron */
